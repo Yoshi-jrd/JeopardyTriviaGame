@@ -56,7 +56,7 @@ body {
     max-width: 10rem;
     margin: 4vh 0 4vh 0;
     padding: 1rem 1rem 1.2rem 0.9rem;
-    border-radius: 36px;
+    border-radius: 50%;
     background: #e9f2fa;
     box-shadow: inset 9px 9px 18px #c6ced5,
                 inset -9px -9px 18px #f8ffff;
@@ -119,7 +119,7 @@ body {
     min-height: 7rem;
     max-width: 12rem;
     max-height: 12rem;
-    border-radius: 96px;
+    border-radius: 50%;
     background: linear-gradient(145deg, #4743ff, #3b39d6);
     box-shadow:  33px 33px 66px #98acbe,
                 -33px -33px 66px #f8ffff;
