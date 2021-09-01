@@ -1,7 +1,4 @@
-// To run this assignment, right click on index.html in the Visual Studio Code file explorer to the left
-// and select "Open with Live Server"
 
-// YOUR CODE HERE!
 //variables to prevent from re-initializing everytime the function runs
 let randomCategory = null
 let randomClueIndex = null
@@ -99,7 +96,7 @@ function questionRender () {
     
     randomAnswer = cluesArray[randomClueIndex].answer
 
-    // Filtering out html elements in the answers, does not work for elements
+    // Filtering out html elements in the answers. All observed answers contain single letter tags, does not work for tags with 2 letters. i.e. <em></em>
     let elFirstIndex = ''
     let elEndingFirstIndex = ''
     let wordArray = []
